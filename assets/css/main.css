@@ -1,0 +1,110 @@
+theme-bg {
+    --bg-1: #87bdd8;
+    --bg-2: #b7d7e8;
+    --bg-3: #daebe8;
+    --bg-4: #cfe0e8;
+}
+
+theme-main {
+    --c-1: #354259;
+    --c-2: #CDC2AE;
+    --c-3: #ECE5C7;
+    --c-4: #9CE3A9
+    --c-5: #FFFFFF
+}
+
+body {
+    background-color: var(--bg-1);
+    margin: 0;
+    font-family: 'Anton', sans-serif;
+}
+
+.header {
+    width: 100%;
+    background: url(/assets/i/header.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    text-align: center;
+}
+
+.i-overlay {
+    background: rgba(255, 255, 255, 0.35);
+}
+
+.header h1 {
+    font-size: 3.75rem;
+    color: var(--c-1);
+    margin: 0;
+    padding-top: 18.75rem;
+}
+
+.header h3 {
+    font-size: 1.875rem;
+    color: var(--c-1);
+    margin: 0;
+    padding-bottom: 18.75rem;
+}
+
+.contact {
+    font-size: 1.875rem;
+    color: black;
+    text-align: center;
+}
+
+.image-row img {
+    width: 4.6875rem;
+    height: 4.6875rem;
+    padding-bottom: 3.125rem;
+}
+
+.image-row a {
+    text-decoration: none;
+    margin: 0 0.3125rem;
+}
+
+.image-row img {
+    transition: .3s ease;
+}
+
+.image-row a:hover img {
+    transform: scale(1.1);
+}
+
+.image-row a:active img {
+    transform: scale(1.15);
+}
+
+.cd {
+    text-align: center;
+    width: 100%;
+    background: url(/assets/i/crabdevelopments.png) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.cd h2 {
+    font-size: 3.75rem;
+    color: var(--c-1);
+    margin: 0;
+    padding-top: 150px;
+}
+
+.cd h3 {
+    font-size: 1.875rem;
+    color: var(--c-1);
+    margin: 0;
+    padding-bottom: 9.375rem;
+}
+
+.cd a {
+    text-decoration: none;
+    color: blue;
+}
+
+.cd a:hover {
+    text-decoration: underline;
+}

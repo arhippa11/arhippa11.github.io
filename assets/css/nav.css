@@ -1,0 +1,76 @@
+:root {
+    --bg-1: #87bdd8;
+    --bg-2: #b7d7e8;
+    --bg-3: #daebe8;
+    --bg-4: #cfe0e8;
+    --c-1: #354259;
+    --c-2: #CDC2AE;
+    --c-3: #ECE5C7;
+    --c-4: #9CE3A9;
+    --c-5: #FFFFFF;
+}
+
+.navbar {
+    height: 6.25rem;
+    background-color: var(--bg-1);
+    position: fixed;
+    width: 100%;
+    z-index: 99;
+}
+
+ul {
+    height: 6.25rem;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: var(--bg-1);
+}
+
+li.left {
+    float: left;
+}
+
+li.right {
+    float: right;
+}
+
+li a {
+    font-size: 3.125rem;
+    display: block;
+    color: var(--c-1);
+    text-align: center;
+    text-decoration: none;
+    transition: .3s ease;
+}
+
+li a p {
+    padding: 0.875rem 1rem;
+    margin: 0;
+}
+
+li a:hover {
+    transform: scale(1.1);
+}
+
+li a:active {
+    background-color: var(--bg-3);
+    transform: scale(1.15);
+}
+
+li.active {
+    background-color: var(--bg-3);
+}
+
+.brand a {
+    padding: 0.875rem 1rem;
+}
+
+.brand img {
+    height: 4.6875rem;
+    width: 4.6875rem;
+}
+
+.fill {
+    height: 6.25rem;
+}
